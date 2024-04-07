@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup page</title>
+  <link rel="stylesheet" href="css/rfid_signup.css">
+  <link rel="stylesheet" href="css/rfid_login.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <div class="signup-main-container">
+        <form action="sign-up" method="post">
+          <div class="logo-container">
+            <img class="macts-logo" src="rfid_images/macts_logo.png" alt="Macts logo">
+            <p class="logo-text">Macts</p>
+          </div>
+          <p class="welcome-text">Welcome back !!!</p>
+          <p class="signin-text">Sign up</p>
+
+          <input type="text" name="username" placeholder="Your username..">
+          <input type="password" name="password" placeholder="Your password..">
+          <input type="password" name="confirmpassword" placeholder="Confirm password..">
+
+          <div class="btn-container">
+            <input class="login-btn" type="submit" value="Sign up">
+          </div>
+          <div class="signup-container">
+            <div class="signup-text">Already have an account? <a class="signup-link" href="/rfid_login.html">Sign in</a></div>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+    <div class="right-container"></div>
+    <img src="rfid_images/displayImage.png" alt="background-image" class="background-image">
+  </div>
+</body>
+</html>
